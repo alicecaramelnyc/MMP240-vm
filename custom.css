@@ -95,6 +95,9 @@ h3{
 #founder{
     background-color: white;
 }
+#founder>div:nth-child(2){
+    margin-bottom: 20%;
+}
 
 #founder>div:first-child{
     margin-top: 20%;
@@ -119,6 +122,11 @@ h3{
     .navbar-default {
         margin: 2em !important;
     }
+    #founder {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
 
     h1{
         font-size: 1.6em;
