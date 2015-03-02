@@ -100,26 +100,24 @@ h3{
     margin-top: 20%;
 }
 
-#featured{
-    background-color: white;
-   margin-top: 20%;
-    margin-bottom: 30%;
-}
-#featured-gallery > div{
-    height: 40vh;
-    
-    text-align:center;
-    list-style-type:none;
-    margin-bottom:0;
-    display:table-cell;
-    vertical-align:bottom;
-    padding:0;
-}
+    #featured-gallery > div{
+    padding-right:0;
+    padding-left:0;
+    }
+
+     #featured{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
 
 @media (max-width: 767.999999px) { 
     .navbar-default {
         margin: 2em !important;
+          padding-right:0;
+    padding-left:0;
+    }
+
     }
 
     h1{
